@@ -1,0 +1,710 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header,main{
+    max-width: 1200px;
+  margin: auto;
+}
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
+ position: fixed;
+ width: 1200px;
+ top: 0;
+
+}
+
+.nav-img-container,.nav-logo{
+    font-size: 36px;
+}
+.nav-img-container{
+    display: flex;
+gap: 13px;
+align-items: center;
+}
+nav ul>li{
+list-style: none;
+display: inline;
+margin-right: 30px;
+}
+li>a{
+    text-decoration: none;
+    color: rgb(66, 66, 71);
+}
+.home{
+    color: rgb(255, 84, 0);
+}
+.Travel{
+    color: rgb(255, 84, 0);
+}
+.nav-img-container{
+    color: rgb(19, 19, 24);
+}
+.menu{
+  display: none;
+}
+
+
+
+
+/* .....  Travel-Section */
+
+
+
+.explore-travel{
+    display: none;
+    margin-top: 100px;
+    height: 500px;
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+
+
+}
+.travel-title{
+    font-size: 64px;
+ color: rgb(255, 255, 255);
+ margin-top: 106px;
+}
+.travel-discription{
+    color: rgb(255, 255, 255); 
+    margin-top: 20px; 
+    margin-bottom: 50px;
+}
+.input{
+    display: flex;
+    height: 84px;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+gap: 20px;
+background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.box{
+    height: 52px;
+    width: 110px;
+    padding: 0 5px 0 5px;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+.find{
+    height: 52px;
+    width: 100px;
+    padding: 0 10px ;
+
+    margin-bottom: 10px;
+    display: flex;
+    
+    align-items: center;
+ 
+   color: white;
+   gap: 10px;
+    background-color: orange;
+    border-radius: 6px;
+}
+
+
+.inline-block{
+    display: inline-block;
+    height: 52px;
+    width: 110px;
+    border: none;
+}
+
+
+                 /* Tour-section */
+.tour-title{
+    font-size: 40px;
+    color: rgb(19, 19, 24);
+    margin-bottom: 50px;
+}
+.tour-discription{
+margin-bottom:35px;
+color: rgba(19, 19, 24, 0.7);
+}
+.tour-btn{
+    padding: 10px  20px  10px  20px;
+    background-color:rgb(255, 84, 0);
+    color:white; 
+    border-radius: 6px;
+    border: none;
+}
+.our-popular-tur{
+    margin-top: 100px;
+    display: flex;
+    gap:40px;
+}
+.tour-place ul{
+    padding-right: 150px;
+  color: rgba(19, 19, 24, 0.7);
+}
+
+.tour-place ul >li{
+    margin-bottom: 35px;
+   
+}
+
+
+
+/* *************** chose your destination text *** */
+
+
+.chose-your-destination-text{
+    margin-top: 120px;
+    margin-bottom: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+}
+.chose-your-destination-tiltle{
+font-size: 40px;
+    color: rgb(19, 19, 24);
+}
+.chose-your-destination-discription{
+    text-align: center;
+    margin-bottom: 48px;
+  color: rgba(19, 19, 24, 0.7);
+}
+
+/* **************** image layout ********** */
+
+
+.img-1{
+    width: 49%;
+height: 300px;
+background-image: url(Images/Rectangle\ 5.png);
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+}
+.img-2{
+    width: 49%;
+    height: 300px;
+    background-image: url(Images/Rectangle\ 8.png);
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+}
+.layout-2{
+    display: flex;
+justify-content: space-between;
+gap: 20px;
+}
+
+.img-3{
+    width: 35%;
+    height: 286px;
+    background-image: url(Images/Rectangle\ 6.png);
+    background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+}
+.img-4{
+    width: 55%;
+    height: 286px;
+    background-image: url(Images/Rectangle\ 7.png);
+    background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+}
+.img-5{
+    width: 25%;
+    height: 286px;
+    background-image: url(Images/Rectangle\ 9.png);
+    background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+}
+.img-6{
+    width: 39%;
+    height: 300px;
+    background-image: url(Images/Rectangle\ 11.png);
+    background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+}
+
+.layout-3{
+    display: flex;
+    gap: 20px;
+}
+.img-7{
+    width: 59%;
+    height: 300px;
+    background-image: url(Images/Rectangle\ 11.png);
+    background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+}
+
+.image-layout{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* 
+******shared class *** */
+.place-name{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+.layout-1{
+    display: flex;
+  justify-content: space-between;
+}
+
+
+/* *******why chose us section*** */
+.why-chose-us,.deals-and-discount{
+margin-top: 100px;
+margin-bottom: 50px;
+display: flex;
+flex-direction: column;
+gap: 24px;
+align-items: center;
+}
+.why-chose-us-title,.deals-and-discount-title{
+font-size: 40px;
+color: rgb(19, 19, 24);
+}
+.why-chose-us-discription,.deals-and-discount-discription{
+color: rgba(19, 19, 24, 0.7);
+text-align: center;
+}
+
+/* ********* card-section****** */
+.card-image{
+    height: 8px;
+    width: 8px;
+}
+.card-title{
+    font-size: 24px;
+    color: rgb(19, 19, 24);
+}
+.card-discription{
+    color: rgb(90, 90, 93);
+}
+.card-one{
+    padding:32px 55px 32px 32px ;
+    border: 16px;
+    background-color: rgba(251, 181, 99, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+}
+.card-two{
+    padding:32px 55px 32px 32px ;
+    border: 16px;
+    background-color: rgba(41, 206, 246, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    top: 20px;
+    border-radius: 16px;
+}
+.card-three{
+    padding:32px 55px 32px 32px ;
+    border: 16px;
+    background-color: rgba(233, 68, 68, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100px;
+    width:495px;
+    border-radius: 16px;
+}
+
+.two-cards{
+    display: flex;
+    gap: 29px;
+}
+.card-three-container{
+margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ********image section **** */
+
+.image-1-card{
+    padding: 50px 77px 50px 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width:450px;
+    height:250px;
+ margin-right:56px;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ border-radius: 16px;
+margin-left:56px;
+}
+
+.image-1-card-title{
+    font-size: 24px;
+    color: rgb(19, 19, 24);
+}
+
+.image-1-card-discription{
+    color: rgb(90, 90, 93);
+}
+.image-1-card-price{
+    font-size: 20px;
+    color: rgb(255, 84, 0);
+}
+.time-location-container {
+    display: flex;
+}
+li{
+list-style: none;
+margin-right: 20px;
+}
+
+
+.image-1-card-btn{
+    color: white;
+    background: orange;
+    padding:12px 20px 12px;
+    display: inline-block;
+    width: 150px;
+  border:none;
+  border-radius: 5px;
+}
+
+.image-1{
+    height: 500px;
+    background-image: url(Images/Group\ 39.png);
+    background-size: cover;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    border-radius: 16px;
+ 
+}
+.image-3{
+    height: 500px;
+    background-image: url(Images/Group\ 39.png);
+    background-size: cover;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    border-radius: 16px;
+ margin-top:24px;
+}
+.Newsletter-title{
+    font-size: 24px;
+}
+
+
+.image-2{
+    height: 500px;
+    background-image: url(Images/Group\ 40.png);
+    background-size: cover;
+    display: flex;
+    
+    align-items: center;
+    border-radius: 16px;
+    margin-top:24px;
+}
+
+.pakages{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+/* *******simple section*********** */
+.simple-place-title{
+font-size: 40px;
+color: rgb(19, 19, 24);
+}
+.simple-place-discription{
+    color: rgb(90, 90, 93);
+}
+.simple-place ul>li{
+    margin-bottom:22px;
+    color: rgb(19, 24, 20);
+}
+
+/* ***************simple-img**************** */
+.simple-img{
+    background-image: url(Images/Rectangle\ 9.png);
+    height: 424px;
+    background-size: cover;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.center{
+    text-align: center;
+}
+.parfect-section{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 28px;
+}
+.simple-place{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  
+}
+
+/* **************Newsletter************* */
+
+.Newsletter{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border:1px solid rgb(255, 84, 0);
+    border-radius: 10px;
+    width: 450px;
+   height: 345px;
+}
+
+.input-fild{
+    display: inline-block;
+    height: 52px;
+padding: 5px;
+border-radius: 8px;
+background-color: rgba(19, 19, 24, 0.05);
+color: rgba(19, 19, 24, 0.3);
+border: none;
+}
+.save-up-to-seventyPersent{
+display: flex;
+gap: 24px;
+}
+.btn{
+    color: white ;
+    background-color: rgb(255, 84, 0);
+}
+.red-card{
+    height: 30px;
+    width: 190px;
+  padding: 40px;
+    background-color: rgb(255, 84, 0);
+    border-radius: 4px;
+    rotate: -23deg;
+    position: relative;
+    left: 390px;
+   bottom: 165px;
+}
+.red-card-title-2{
+    font-size: 30px;
+    color: white;
+}
+.red-card-title{
+    color: white;
+    font-size: 24px;
+}
+/* ***********footer*********** */
+
+footer{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 34px;
+    background-color: rgba(19, 19, 24, 0.05);
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 100px;
+}
+.discription{
+    text-align: center;
+}
+.social-media-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+/* responsive for mobile */
+
+ @media screen and (max-width:576px) {
+    body{
+        padding:40px;
+    }
+    nav{
+        width: 100%;
+        justify-content: space-between;
+    
+    }
+    header{
+      margin: 0;
+    
+    }
+    .nav-logo{
+       width:30px;
+       height: 33px;
+ 
+    }
+    .hero-travel{
+        font-size: 21px;
+    }
+    .li-container{
+        display: none;
+    }
+    .menu{
+        display: block;
+        width: 16px;
+        height: 10px;
+    }
+    .travel-title{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .travel-discription{
+   margin-bottom: 90px;
+    }
+    .box{
+        width: 255px;
+        height: 10vh;
+    }
+
+    .our-popular-tur,
+    .input{
+        display: flex;
+        flex-direction: column;
+    
+    }
+   .tour-img{
+    width: 100%;
+   
+  
+   }
+   .Newsletter{
+width: 70%;
+   }
+   .newsletter-img{
+    width: 100%;
+   }
+
+    .two-cards{ 
+        flex-direction: column;
+      
+    }
+    .card-three{
+        margin-top: 24px;
+     height: 289px;
+     padding-right: 60px;
+    }
+    .card-one ,.card-two{
+        height: 289px;
+       padding-right: 60px;
+    }
+
+    /* img-layout responsive */
+
+    .layout-1,.layout-2,.layout-3{
+    flex-direction: column;
+    }
+    .layout-1{
+gap: 20px;
+    }
+    .parfect-section{
+flex-direction: column;
+    }
+    .simple-img{
+        width: 100%;
+        height: 200px;
+    }
+    .save-up-to-seventyPersent{
+        flex-direction: column;
+    }
+    .image-1,.image-2,.image-3{ 
+flex-direction: column;
+justify-content: end;
+
+    }
+    footer{
+        height: 300px;
+        padding: 60px;
+        padding-top: 50px;
+        gap: 15px;
+    }
+    .discription{
+        padding: 10px;
+    }
+.image-1-card{
+    gap: 10px;
+    margin: 0;
+    height: 250px;
+    padding: 24px;
+    width:300px;
+    margin-bottom: 24px;
+  
+}
+.img-1 ,.img-2 ,.img-3 ,.img-4 ,.img-5 ,.img-6 ,.img-7{
+width: 100%;
+}
+} 
+} 
+
+
+
+    
+
+/* 
+ @media screen and (max-width:576px) {
+    header{
+   padding: 20px;
+   max-width: 576px;
+    }
+    .li-container{
+        display: none;
+    }
+    .menu{
+        display: block;
+        
+    }
+    nav{
+     
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-logo{
+        width:30px;
+        height: 33px;
+  
+     }
+     .hero-travel{
+         font-size: 21px;
+     }
+ } */ */
